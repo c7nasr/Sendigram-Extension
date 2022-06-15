@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <div class="container text-center bg-gray-800 min-w-max p-7">
+        <h1 class="text-3xl text-white">Welcome to Sendigram</h1>
+        <h2 class="text-base text-gray-200">if you're not registered, you will need to register <a href="https://github.com" target="_blank">here.</a></h2>
+        <form class="flex flex-row gap-x-2 my-2 min-w-max">
+            <input id="email" type="email" class="min-w-max rounded-xl form-input" placeholder="Enter your email address">
+            <input id="password" type="password" class="min-w-max rounded-xl form-input" placeholder="Enter your Password">
+        </form>
+        <button type="button"
+            class="w-full text-white  focus:ring-4  font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 bg-green-600 hover:bg-green-700 focus:ring-green-800"
+            id="login"><h1 class="font-bold">Login</h1></button>
+        <span id="userId"></span>
+    </div>
+</body>
+<script type="module" src="auth.js"></script>
+
+</html>

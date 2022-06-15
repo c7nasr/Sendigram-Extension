@@ -1,0 +1,23 @@
+{
+  "name": "Sendigram",
+  "description": "Sendigram Extension to be used with Sendigram.com. It Allowes you to send from Browser to Your Telegram",
+  "version": "1.0",
+  "manifest_version":2,
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "background": {
+    "scripts": ["background.js","auth.js","user.js"]
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  }, "permissions": [
+  "storage",
+  "contextMenus"
+],
+  "icons": {
+    "16": "16.png",
+    "32": "32.png",
+    "64": "64.png",
+    "128": "128.png"
+  }
+}
+  
